@@ -33,7 +33,7 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: chocolate;
+    background-color: lightgray;
 }
 main{
     flex-grow: 1;
@@ -41,7 +41,6 @@ main{
 }
 .conteudo{
     width: 50%;
-    background-color: brown;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -70,7 +69,7 @@ main{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    color: lightgreen;
+    
 
 }
 .destaque{
@@ -79,5 +78,8 @@ main{
 }
 footer{
     height: 100px;
-    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
 }
