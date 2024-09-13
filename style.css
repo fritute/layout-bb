@@ -16,11 +16,24 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 80px;
 }
 header{
     height: 200px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: chocolate;
 }
 main{
     flex-grow: 1;
