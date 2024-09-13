@@ -1,43 +1,51 @@
+/*RESET */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-/*UL -LISTA NAO ORDENADA. OL - LISTA ORDENADA  LI - ELEMENTO DA LISTA */
-ul , ol , li{
+
+/* UL - LISTA ORDENADA. OL- ORDENADA. LI - ELEMENTO DA LISTA. */
+ul, ol, li{
     list-style: none;
 }
-/*FIM DO RESET DA PAGINA*/
-body{
+/*FIM DO RESET*/
+
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
 }
-header{
+
+header {
     height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
-.menu ul{
-    display: flex;
-    gap: 32px;
-    font-size: 32px;
-}
+
 .logo{
     height: 80px;
     width: 80px;
     background-color: lightgray;
 }
-main{
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
+main {
     flex-grow: 1;
     display: flex;
+    
 }
 .conteudo{
     width: 50%;
@@ -45,36 +53,44 @@ main{
     flex-direction: column;
     justify-content: space-between;
 }
+
 .conteudo h1{
     font-size: 96px;
-
 }
 .conteudo p{
-    font-size: 32px;
+    font-size: 40px;
     width: 80%;
 }
+
 .conteudo button{
-    height: 96px;
+    height: 80px;
     width: 300px;
     background-color: black;
-    color: white;
+    color: aliceblue;
     font-size: 32px;
 }
+
 .conteudo .social{
     display: flex;
     justify-content: space-between;
     width: 80%;
 }
-.conteudo social div{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    
 
+.conteudo .social div{
+    height: 80px;
+    width: 80px;
+    background-color: lightgray;
+    border-radius: 50%;
 }
+
+
 .destaque{
-    width: 50%;
-    background-color: lightgrey;
+    width: 80%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-image: url(./img/Tatum.jpg);
+    width: 80%;
+   
 }
 footer{
     height: 100px;
